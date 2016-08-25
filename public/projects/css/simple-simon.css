@@ -1,0 +1,74 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+button {
+    background-color: #0C0E47;
+    color: #fff;
+}
+#centerCircle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #282622;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+#container {
+    border: 4px solid #666;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    margin-top: -210px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 260px;
+    width: 260px;
+    background-color: #282622;
+}
+.box {
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    position: relative;
+    float: left;
+    opacity: 0.5;
+}
+#redBox {
+    background-color: rgb(153, 0, 0);
+    border-top-left-radius: 100%;
+    border-right: 4px solid #444;
+    border-bottom: 4px solid #888;
+}
+#blueBox {
+    background-color: rgb(0, 0, 153);
+    border-top-right-radius: 100%;
+    border-left: 4px solid #444;
+    border-bottom: 4px solid #888;
+}
+#yellowBox {
+    background-color: rgb(225, 225, 0);
+    border-bottom-left-radius: 100%;
+    border-right: 4px solid #444;
+    border-top: 4px solid #888;
+}
+#greenBox {
+    background-color: rgb(0, 153, 0);
+    border-bottom-right-radius: 100%;
+    border-left: 4px solid #444;
+    border-top: 4px solid #888;
+}
+
+
+

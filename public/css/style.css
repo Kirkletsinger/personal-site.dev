@@ -205,7 +205,7 @@ hr {
 #skills {
 	padding: 100px 0;
 	background: #7bc3d1;
-	background: url(../img/BGthree.jpg) no-repeat center top;
+	
 }
 #skills h2 {
 	color: #fff;
@@ -561,24 +561,7 @@ label {
 	-o-transition: none;
 	transition: none;
 }
-#contact .form-control:focus {
-	border-color: inherit;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #2c3e50;
-}
-.form-control:-moz-placeholder {
-color: #2c3e50;
-}
-.form-control::-moz-placeholder {
-color: #2c3e50;
-}
-.form-control:-ms-input-placeholder {
-color: #2c3e50;
-}
+
 #contact .social {
 	margin-top: 60px;
 }
